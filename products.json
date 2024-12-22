@@ -10,7 +10,7 @@
       "web-link": "",
       "flavors": ["csoki", "vanília", "eper", "erdei gyümölcs", "citrom túró", "banán", "fahéj"],
       "packaging":["1kg (40 adag)", "4kg (160 adag)"],
-      "dosage":"naponta kétszer két adagoló-kanálnyi (25 g) Power Whey-t keverni vízbe vagy tejbe, lehetőleg turmixgéppel.",
+      "dosage":"Naponta kétszer két adagoló-kanálnyi (25 g) Power Whey-t keverni vízbe vagy tejbe, lehetőleg turmixgéppel.",
       "type": "Fehérje"
     },
     {
@@ -24,7 +24,7 @@
       "web-link": "",
       "flavors": ["csoki", "vanília", "eper"],
       "packaging":["1kg (40 adag)"],
-      "dosage":"naponta kétszer két adagolókanálnyi (25 g) Power Soy-t keverni vízbe vagy tejbe, lehetőleg turmixgéppel.",
+      "dosage":"Naponta kétszer két adagolókanálnyi (25 g) Power Soy-t keverni vízbe vagy tejbe, lehetőleg turmixgéppel.",
       "type": "Fehérje"
     },
     {
@@ -38,7 +38,7 @@
       "web-link": "",
       "flavors": ["csoki", "vanília", "eper"],
       "packaging":["1kg (40 adag)", "4kg (160 adag)"],
-      "dosage":"naponta kétszer két adagoló-kanálnyi (25g) Power Protein-t keverni vízbe vagy tejbe, lehetőleg turmixgéppel.",
+      "dosage":"Naponta kétszer két adagoló-kanálnyi (25g) Power Protein-t keverni vízbe vagy tejbe, lehetőleg turmixgéppel.",
       "type": "Fehérje"
     },
     {
@@ -52,7 +52,7 @@
       "web-link": "",
       "flavors": ["csoki", "vanília", "eper"],
       "packaging":["1250g (25 adag)", "5kg (100adag)"],
-      "dosage":"naponta két adagolókanálnyi (50 g) Power Mass-t keverni vízbe vagy tejbe,lehetőleg turmixgéppel.",
+      "dosage":"Naponta két adagolókanálnyi (50 g) Power Mass-t keverni vízbe vagy tejbe,lehetőleg turmixgéppel.",
       "type": "Tömegnövelő"
     },
     {
@@ -65,64 +65,64 @@
       "visible": true,
       "web-link": "",
       "flavors": ["csoki", "vanília", "eper"],
-      "packaging":[""],
-      "dosage":"",
+      "packaging":["1250g (25 adag)", "5kg (100adag)"],
+      "dosage":"Naponta két adagolókanálnyi (50 g) Power Mass-t keverni vízbe vagy tejbe,lehetőleg turmixgéppel.",
       "type": "Tömegnövelő"
     },
     {
       "id": 6,
       "name": "Power Glutamin",
-      "description": "Maximális teljesítményhez.",
+      "description": "Az L-glutamin a keratin monohidrát mellett évek óta az egyik legkedveltebb és leggyakrabban használt izomerő növelő táplálék kiegészítő a testépítők és erőemelők körében. Az L-glutamin egy aminosav, mely igaz, hogy nem esszenciális, tehát a szervezet maga is elő tudja állítani, mégis tesztek során bebizonyosodott, hogy stressz alatt (például súlyzós edzés esetében) a szervezet nem tud elegendő mennyiségű L-glutamint előállítani. A Power Glutamine a legmagasabb igényeknek is megfelel, kizárólag szabad formájú L-glutamint tartalmaz, mely nem csak energiaforrásként szolgál a szervezetnek, hanem jelenléte nélkülözhetetlen a megfelelő fehérje szintézeshez. Ma már szinte elképzelhetetlen, hogy egy testépítő nem használjon L-glutamin készítményt. Maga az izomzat 60% glutaminból áll, mely glutamin raktárak az edzés során könnyen kiürülnek. Igen fontos a kiürült glutamin raktárak mihamarabbi feltöltése, mert ellenkező esetben katabolikus (az izomzat leépülésével járó) folyamatok indulhatnak el. A Glutamin energiát is szolgáltat az edzés során, és fontos szerepet játszik a fehérjék megfelelő hasznosulásában is. Ezen kívül sejttérfogat növelő hatással is rendelkezik, és hasonlóan a kreatinhoz, az L-glutamin szedésével is az izmok rövid időn belül feszessé és definiálttá válnak. A Power Glutamine nem alacsony koncentrációjú L-glutamin (mely esetben egy kevés L-glutamin kapcsolódik más aminosavakhoz), hanem 100% tisztaságú, kizárólag szabad formájú, igen magas minőségű L-glutamint tartalmazó, kifejezetten intenzív sportolóknak kifejlesztett készítmény. Hatása már rövid szedési ciklust követően tapasztalható, az izmok teltebbé, feszesebbé és lényegesen kidolgozottabbá válnak. Használata javasolt kezdő, középhaladó és haladó testépítőknek is egyaránt.",
       "image": "assets/img/products/POWER-GLUTAMINE-OLD.jpeg",
       "price": 4990,
       "featured": false,
       "visible": true,
       "web-link": "",
       "flavors": [""],
-      "packaging":[""],
-      "dosage":"",
+      "packaging":["150g (30 adag)"],
+      "dosage":"Fogyasztása leginkább edzés után javasolt. Egyszeri adagja egy teáskanálnyi mennyiség, mely kb. 5 grammnak felel meg. Íze semleges, így bátran lehet proteinitalhoz keverve fogyasztani.",
       "type": "Aminosav"
     },
     {
       "id": 7,
       "name": "Power Taurine",
-      "description": "Maximális teljesítményhez.",
+      "description": "A taurin egy kevésbé ismert, de sportolók számára igen fontos aminosav. A glutamin után a taurin fordul elő legnagyobb mennyiségben az izmokban, így érthető, hogy létfontosságú, hogy elegendő taurin álljon az izomsejtek rendelkezésére a megfelelő fejlődéshez. Testépítők vonatkozásában a taurin egyik legfontosabb tulajdonsága, hogy „inzulin- szerű” hatása van, ami azt jelenti, hogy növeli a glükóz és az aminosavak anyagcseréjét. Kutatások kimutatták, hogy a taurin aktív szerepet tölt be az úgynevezett sejttérfogat növelésben is (ennek a folyamatnak köszönhető az izmok látványos domborodása), továbbá növeli az izomsejtekben a protein szintézist, minek következtében több aminosav hasznosul.Tesztek szerint napi háromszori minimum 500 mg taurin bevitele segít megelőzni az izmok leépülését. Biokémikai besorolás szerint nem esszenciális aminosav a taurin, mégis egyes esetekben, amikor az izomzat az átlagnál jóval fejlettebb, létfontosságú, hogy elegendő álljon belőle rendelkezésre. Intezív sportolás és testmozgás csökkenti a szervezet taurinszintjét, így azt feltétlenül pótolni kell.",
       "image": "assets/img/products/POWER-TAURINE.avif",
       "price": 4990,
       "featured": false,
       "visible": true,
       "web-link": "",
       "flavors": [""],
-      "packaging":[""],
-      "dosage":"",
+      "packaging":["90 kapszula"],
+      "dosage":"Napi 1 adag (2 kapszula) 30 perccel edzés előtt",
       "type": "Aminosav"
     },
     {
       "id": 8,
-      "name": "Power Creatin",
-      "description": "Maximális teljesítményhez.",
-      "image": "assets/img/products/POWER-CREATINE-OLD.jpg",
+      "name": "Power Creatine",
+      "description": "A kreatin a testépítők körében évek óta az egyik legkedveltebb táplálék kiegészítő. Segítségével viszonylag rövid időn belül jelentős és látványos izom- és erőnövekedés érhető el, mivel az izmok lényegesebben teltebbnek fognak látszani. A kreatint a szervezet maga is előállítja, de megtalálható különböző ételekben, mint a húsokban is, igaz nagyon csekély mennyiségben. Egy adag (5 gramm) kreatin természetes úton (táplálékkal) való beviteléhez 1,1 kg minőségi marhahúst kellene elfogyasztani! Lényegesen egyszerűbb tehát, ha biztonságos, a szervezete nem megterhelő módon kiegészítő szedésével visszük be az izomfejlődéshez szükséges kreatint. A kreatin alapvető szerepe az, hogy pótolja az edzés során felhasznált ATP mennyiségét. A Power Creatin feltölti az izmok kimerült kreatin raktárait, melyek a kemény edzések alatt hamar kiürülnek. Mivel a kreatin többlet energiához is juttat, így az edzésen nagyobb lesz a teljesítmény, melynek köszönhetően felgyorsul az izomzat kiépülése. A Power Creatine nem csak az energizálásban játszik szerepet, hanem a kreatin sejttérfogat növelő hatásának köszönhetően az izomsejtek megduzzadnak, az izmok telté és feszesebbé válnak. Az elért eredmények a feltöltési ciklust követően is könnyen fenntarthatók.",
+      "image": "assets/img/products/POWER-CREATINE.jpg",
       "price": 4990,
       "featured": true,
       "visible": true,
       "web-link": "",
       "flavors": [""],
-      "packaging":[""],
-      "dosage":"",
+      "packaging":["500g (100 adag)"],
+      "dosage":"Fogyasztása leinkább edzés előtt és után javasolt. A javasolt adagolás minden esetben függ a sportoló testsúlyától és attól, hogy feltöltési, vagy szintfenntartási fázisban van-e.",
       "type": "Kreatin"
     },
     {
       "id": 9,
       "name": "Power Cell",
-      "description": "Maximális teljesítményhez.",
+      "description": "A Power Cell egy egyedülálló kreatin transzport rendszer, mely összetevőinek köszönhetően a kreatin hatékonyságát 150-200 %-kal is növelheti. Kutatások szerint a kreatin hatákonyabb, ha megemelkedik a szervezetben az inzulinszint, így az izomzatba a kreatin bejuttatása is jelentős mértékben javul. Az inzulinszint megemelésére legalkalmasabb szénhidrát a legmagasabb glikémiás indexszel rendelkező dextróz. További tanulmányok kimutatták, hogy ha a kreatint magnéziummal együtt visszük be a szervezetbe, akkor a kreatin hatása még tovább fokozható. A Power Cell további két igen hatákony sejttérfogat növelő hatóanyagot is tartalmaz. Az egyik az L-glutamin, mely hasonlóan a kreatinhoz, vizet tart vissza a sejtekben és ezáltal növeli a nukleinsav termelést és a proteinszitézist, ami megfelelő edzéssel párosítva erő- és izomnövekedést eredményez. A másik a taurin aminosav. Intenzív edzés során nagymértékű turinszint csökkenés figyelhető meg az izmokban, minek következtében csökken a teljesítőképesség és hamarabb kifáradunk. A taurin megfelelő pótlásával azonban javítható a kreatin hatákonysága, így nagyobb lesz az állóképesség, és lényegesen megnő a szervezet energiaszintje. A Power Cell a kreatin, L-glutamin, taurin, magnézium és dextróz mellett tartalmaz még 14 féle vitamint és ásványi anyagot az edzés során megnövekedett vitamin igény pótlására.",
       "image": "assets/img/products/POWER-CELL.jpg",
       "price": 4990,
       "featured": false,
       "visible": true,
       "web-link": "",
-      "flavors": [""],
-      "packaging":[""],
-      "dosage":"",
+      "flavors": ["narancs", "ananász", "lemon-lime"],
+      "packaging":["2050g (41 adag)", "500g (10 adag)"],
+      "dosage":"edzés után két adagolókanálnyi (50 g) Power Cell-t keverni vízbe, lehetőleg turmixgéppel. Ajánlott azonnal fogyasztani.",
       "type": "Kreatin"
     }
     

@@ -127,12 +127,3 @@ window.addEventListener('scroll', () => {
   }
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-    const featuredProducts = document.getElementById('featured-products');
-    if (featuredProducts) {
-        featuredProducts.scrollLeft = 0; // Set scroll position to the far left
-        console.log('Scroll position set to:', featuredProducts.scrollLeft); // Debugging log
-    } else {
-        console.error('Element with ID "featured-products" not found. Check if the element exists in your HTML.');
-    }
-});

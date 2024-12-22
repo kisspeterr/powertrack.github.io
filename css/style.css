@@ -11,7 +11,7 @@ html {
 
 .layout_padding {
   padding-top: 90px;
-  padding-bottom: 0px;
+  padding-bottom: 90px;
 }
 
 .layout_padding2 {
@@ -58,7 +58,7 @@ html {
   content: "";
   width: 40px;
   height: 7px;
-  background-color: #0008ff;
+  background-color:  #363eb3;
   border-radius: 10px;
   position: absolute;
   bottom: 0;
@@ -398,6 +398,9 @@ a:focus {
 .slider_section .idicator_container {
   position: relative;
 }
+.about_section{
+  background-color: #1c1c1c;
+}
 
 .about_section .img_container .img-box img {
   width: 100%;
@@ -505,6 +508,10 @@ a:focus {
   align-items: center;
 }
 
+.contact_link2{
+  color: #363eb3;
+}
+
 .client_section .contact_link2 span {
   font-size: 25px;
   font-weight: bold;
@@ -537,125 +544,7 @@ a:focus {
 }
 
 
-/* contact section */
-.contact_section {
-  position: relative;
-  color: #ffffff;
-}
 
-.contact_section .row {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.contact_section .contact_form-container {
-  margin-top: 35px;
-}
-
-.contact_section .contact_form-container input {
-  border: none;
-  outline: none;
-  color: #000000;
-  height: 45px;
-  width: 100%;
-  margin: 15px 0;
-  padding-left: 15px;
-  background-color: #ffffff;
-}
-
-.contact_section .contact_form-container input::-webkit-input-placeholder {
-  color: #000000;
-  text-transform: uppercase;
-}
-
-.contact_section .contact_form-container input:-ms-input-placeholder {
-  color: #000000;
-  text-transform: uppercase;
-}
-
-.contact_section .contact_form-container input::-ms-input-placeholder {
-  color: #000000;
-  text-transform: uppercase;
-}
-
-.contact_section .contact_form-container input::placeholder {
-  color: #000000;
-  text-transform: uppercase;
-}
-
-.contact_section .contact_form-container input.message_input {
-  height: 120px;
-}
-
-.contact_section .contact_form-container .btn-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 25px;
-}
-
-.contact_section .contact_form-container button {
-  display: inline-block;
-  padding: 10px 60px;
-  background-color: #363eb3;
-  color: #ffffff;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  border: 1px solid transparent;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.contact_section .contact_form-container button:hover {
-  background-color: transparent;
-  border-color: #363eb3;
-  color: #363eb3;
-}
-
-.contact_bg_box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: -1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.contact_bg_box .img-box {
-  width: 100%;
-}
-
-.contact_bg_box .img-box img {
-  min-width: 100%;
-  min-height: 100%;
-}
-
-.contact_bg_box::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.35)));
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.35));
-}
-
-/* end contact section */
 .team_section .box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -753,8 +642,8 @@ a:focus {
 
 
 .square-img {
-  width: 200px; 
-  height: 200px;
+  width: 100px; 
+  height: 100px;
   background-size: cover;
   background-position: center;
   border-radius: 10px; 
@@ -1057,4 +946,64 @@ a:focus {
 .modal-body img {
   max-width: 100%;
   height: auto;
+}
+
+/* Kapcsolatfelvétel szekció stílusai */
+.contact_section {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.contact_section .heading_container {
+  margin-bottom: 40px;
+}
+
+.contact_section .contact_links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contact_section .contact_item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.contact_section .contact_item i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #555;
+}
+
+.contact_section .contact_item:hover {
+  color: #007bff;
+}
+
+.contact_section .contact_item:hover i {
+  color: #007bff;
+}
+
+
+.btn_container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #363eb3;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #363eb3;
 }
