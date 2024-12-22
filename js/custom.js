@@ -127,17 +127,12 @@ window.addEventListener('scroll', () => {
   }
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-    // Kiemelt elem kiválasztása
-    const featuredProduct = document.querySelector("#all-products .featured");
-  
-    if (featuredProduct) {
-      // Automatikus görgetés a kiemelt elemhez
-      featuredProduct.scrollIntoView({
-        behavior: "smooth",
-        block: "nearest",
-        inline: "start"
-      });
+document.addEventListener('DOMContentLoaded', function() {
+    const featuredProducts = document.getElementById('featured-products');
+    if (featuredProducts) {
+        featuredProducts.scrollLeft = 0; // Set scroll position to the far left
+        console.log('Scroll position set to:', featuredProducts.scrollLeft); // Debugging log
+    } else {
+        console.error('Element with ID "featured-products" not found. Check if the element exists in your HTML.');
     }
-  });
-  
+});

@@ -11,7 +11,7 @@ html {
 
 .layout_padding {
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 0px;
 }
 
 .layout_padding2 {
@@ -990,8 +990,12 @@ a:focus {
   display: flex;
   flex-wrap: nowrap; /* Ne törjenek új sorba */
   overflow-x: auto; /* Görgetés engedélyezése vízszintesen */
-  gap: 10px; /* Távolság a termékek között */
   scroll-snap-type: x mandatory; /* Görgetés után "ragadjon" a termékekhez */
+  justify-content: flex-start;
+  }
+
+#featured-products .product {
+  scroll-snap-align: start; /* Mindig a bal szélhez igazítsa az elemeket */
 }
 
 .product-card {
@@ -1000,9 +1004,6 @@ a:focus {
   scroll-snap-align: start; /* Görgetés után igazodjanak az elejükkel */
 }
 
-#featured-products::-webkit-scrollbar {
-  display: none; /* Görgetősáv elrejtése */
-}
 
 /* Alapvető stílusok a termékkártyákhoz */
 .product-card {
